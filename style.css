@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d32f2f; /* Rot */
+  font-family: "Courier New", monospace; /* Retro-Schrift */
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.gallery-img {
+  width: 200px;
+  height: auto;
+  border: 3px solid white;
+}
+form input, form textarea {
+  width: 80%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  font-size: 1em;
+}
+form button {
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  background-color: white;
+  color: #d32f2f;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
