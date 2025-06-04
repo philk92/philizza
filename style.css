@@ -94,11 +94,11 @@ ul {
 
 hr {
   width: 50%;
-  border: dashed 1px;
+  border: dashed 1px white;
   border-bottom: 0px;
 }
 
 p {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.2em; }
