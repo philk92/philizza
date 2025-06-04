@@ -2,10 +2,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #d32f2f; /* Rot */
-  font-family: "Courier New", monospace; /* Retro-Schrift */
+  background-color: #d32f2f; /* red */
+  font-family: "Courier New", monospace; /* font */
   color: white;
   text-align: center;
+  font-size: 1.2em; /*  multiplyer */
 }
 
 header {
@@ -27,10 +28,14 @@ nav ul li {
   padding: 10px;
 }
 
+nav a {
+  font-size: 1.2em;
+}
+
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 h1 {
@@ -101,8 +106,8 @@ hr {
 p {
   color: white;
   text-decoration: none;
-  font-size: 1.2em; }
+ }
 
-  main {
-    font-size: 1.2em;
+main {
+    font-size: 1em;
   }
