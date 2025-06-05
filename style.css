@@ -47,14 +47,14 @@ main {
   margin-top: 2em;
 }
 
-.gallery {
+.galerie {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
 }
 
-.gallery-img {
+.galerie-img {
   width: 200px;
   height: auto;
   border: 3px solid white;
