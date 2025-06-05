@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #d32f2f; /* red */
+  background-color: #b93333; /* red */
   font-family: "Courier New", monospace; /* font */
   color: white;
   text-align: center;
@@ -113,3 +113,7 @@ main {
     max-width: 80%;
     margin: auto;
   }
+
+main li {
+  margin-left: -35px;
+}
