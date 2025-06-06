@@ -2,8 +2,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #b93333; /* red */
+  font-family: "Courier New", monospace; /* font */
+  color: white;
   text-align: center;
-  font-size: 1em; /*  multiplyer */
+  font-size: 1.2em; /*  multiplyer */
 }
 
 header {
@@ -30,9 +33,9 @@ nav a {
 }
 
 a {
+  color: white;
   text-decoration: none;
   font-size: 1em;
-  color: black;
 }
 
 h1 {
@@ -54,7 +57,7 @@ main {
 .galerie-img {
   width: 200px;
   height: auto;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 form input, form textarea {
   width: 80%;
@@ -96,11 +99,12 @@ ul {
 
 hr {
   width: 50%;
-  border: dashed 1px rgb(184, 184, 184);
+  border: dashed 1px white;
   border-bottom: 0px;
 }
 
 p {
+  color: white;
   text-decoration: none;
  }
 
