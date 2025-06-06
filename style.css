@@ -125,3 +125,9 @@ nav ul{
   position: relative;
   top: -5px;
 }
+
+@media (max-width: 800px) {
+  body {
+    font-size: 2em;
+  }
+}
