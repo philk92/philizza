@@ -96,9 +96,13 @@ ul {
 }
 
 hr {
-  width: 50%;
+  width: 40%;
   border: dashed 1px rgb(213, 213, 213);
   border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-top: 30px;
+  padding: 5px;
 }
 
 p {
@@ -113,6 +117,12 @@ main {
 
 main li {
   margin-left: -35px;
+}
+
+.date {
+  font-size: 0.7em;
+  margin: -40px;
+  margin-top: 0px;
 }
 
 nav ul{
@@ -130,4 +140,10 @@ nav ul{
   body {
     font-size: 2em;
   }
+
+  .date {
+    font-size: 0.6em;
+    margin-bottom: -60px;
+  }
 }
+
